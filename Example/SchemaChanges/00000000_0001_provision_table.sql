@@ -1,4 +1,4 @@
-DECLARE @v_script_name VARCHAR = '00000000_0001_provision_table.sql';
+DECLARE @v_script_name NVARCHAR(200) = '00000000_0001_provision_table.sql';
 BEGIN
 --
 IF (NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES 
